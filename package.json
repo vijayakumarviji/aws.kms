@@ -1,0 +1,27 @@
+{
+  "name": "aws.kms-jwt-v3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vijayakumarviji/aws.kms-jwt-v3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vijayakumarviji/aws.kms-jwt-v3/issues"
+  },
+  "homepage": "https://github.com/vijayakumarviji/aws.kms-jwt-v3#readme",
+  "dependencies": {
+    "@aws-sdk/client-kms": "^3.95.0",
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1"
+  }
+}
